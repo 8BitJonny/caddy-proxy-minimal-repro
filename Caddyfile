@@ -1,0 +1,5 @@
+# this should be the docker local from ifconfig
+http://172.17.0.2 {
+        # this is again your tailscale node ip. This is not used when used with tinyproxy, since it only logs
+        reverse_proxy /api http://100.81.184.38:3000
+}
